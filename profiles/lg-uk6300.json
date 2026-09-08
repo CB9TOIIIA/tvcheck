@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "id": "lg-uk6300",
+  "name": "LG UK6300PLB",
+  "firmware": "05.50.70",
+  "verified": true,
+  "sources": [
+    "https://eguide.lgappstv.com/manual/w18_mr/dvb/Contents/share/photomovie_e_c_a_t/eng/w40__share__photomovie_e_c_a_t__eng.html",
+    "https://www.lg.com/uk/tvs-soundbars/4k-uhd-tvs/55uk6300plb/"
+  ],
+  "containers": {
+    "asf": {
+      "video": [
+        "VC-1",
+        "WMV"
+      ],
+      "audio": [
+        "WMA"
+      ]
+    },
+    "avi": {
+      "video": [
+        "AVC",
+        "MJPEG",
+        "MPEG-4"
+      ],
+      "audio": [
+        "AC-3",
+        "ADPCM",
+        "DTS",
+        "MP1",
+        "MP2",
+        "MP3",
+        "PCM"
+      ]
+    },
+    "mp4": {
+      "video": [
+        "AVC",
+        "HEVC",
+        "MPEG-4"
+      ],
+      "audio": [
+        "AAC",
+        "AC-3",
+        "AC-4",
+        "E-AC-3",
+        "MP3"
+      ]
+    },
+    "3gp": {
+      "video": [
+        "AVC",
+        "MPEG-4"
+      ],
+      "audio": [
+        "AAC",
+        "AMR-NB",
+        "AMR-WB"
+      ]
+    },
+    "mkv": {
+      "video": [
+        "AVC",
+        "HEVC",
+        "MPEG-2",
+        "MPEG-4",
+        "VP8",
+        "VP9"
+      ],
+      "audio": [
+        "AAC",
+        "AC-3",
+        "DTS",
+        "E-AC-3",
+        "MP1",
+        "MP2",
+        "MP3",
+        "PCM"
+      ]
+    },
+    "ts": {
+      "video": [
+        "AVC",
+        "HEVC",
+        "MPEG-2"
+      ],
+      "audio": [
+        "AAC",
+        "AC-3",
+        "AC-4",
+        "E-AC-3",
+        "MP1",
+        "MP2",
+        "MP3",
+        "PCM"
+      ]
+    },
+    "mpg": {
+      "video": [
+        "MPEG-1",
+        "MPEG-2"
+      ],
+      "audio": [
+        "MP1",
+        "MP2",
+        "MP3"
+      ]
+    },
+    "vob": {
+      "video": [
+        "MPEG-1",
+        "MPEG-2"
+      ],
+      "audio": [
+        "AC-3",
+        "MP1",
+        "MP2",
+        "PCM"
+      ]
+    },
+    "rm": {
+      "video": [
+        "RV30",
+        "RV40"
+      ],
+      "audio": [
+        "AAC",
+        "Cook"
+      ]
+    }
+  },
+  "unsupported_video": [
+    "AV1",
+    "VVC",
+    "ProRes",
+    "FFV1",
+    "Theora",
+    "DNxHD",
+    "DNxHR",
+    "H.263"
+  ],
+  "unsupported_audio": [
+    "TrueHD",
+    "FLAC",
+    "Opus",
+    "Vorbis",
+    "ALAC",
+    "APE",
+    "WavPack",
+    "MLP"
+  ],
+  "hdr_formats": [
+    "HDR10",
+    "HLG"
+  ],
+  "uhd_containers": [
+    "mkv",
+    "mp4",
+    "ts"
+  ],
+  "uhd_video": [
+    "AVC",
+    "HEVC"
+  ],
+  "uhd_audio": [
+    "AC-3",
+    "E-AC-3",
+    "AAC"
+  ],
+  "options": {
+    "dts_network": false,
+    "aac_main": false,
+    "gmc_qpel": false,
+    "dolby_vision": false,
+    "width_4096_uncertain": true
+  },
+  "video_rules": {
+    "AVC": {
+      "profiles": [
+        "Baseline",
+        "Constrained Baseline",
+        "Main",
+        "High"
+      ],
+      "bit_depths": [
+        8
+      ],
+      "chroma": [
+        "4:2:0"
+      ],
+      "max_width": 3840,
+      "max_height": 2160,
+      "max_fps": 60,
+      "max_level_fhd": 4.2,
+      "max_level_uhd": 5.1,
+      "max_mbps_fhd": 40,
+      "max_mbps_uhd": 50
+    },
+    "HEVC": {
+      "profiles": [
+        "Main",
+        "Main 10",
+        "Main10"
+      ],
+      "bit_depths": [
+        8,
+        10
+      ],
+      "chroma": [
+        "4:2:0"
+      ],
+      "max_width": 3840,
+      "max_height": 2160,
+      "max_fps": 60,
+      "max_level_fhd": 4.1,
+      "max_level_uhd": 5.1,
+      "max_mbps_fhd": 40,
+      "max_mbps_uhd": 60
+    },
+    "VP9": {
+      "profiles": [
+        "0",
+        "2"
+      ],
+      "bit_depths": [
+        8,
+        10
+      ],
+      "chroma": [
+        "4:2:0"
+      ],
+      "max_width": 3840,
+      "max_height": 2160,
+      "max_fps": 60,
+      "max_level_fhd": null,
+      "max_level_uhd": null,
+      "max_mbps_fhd": null,
+      "max_mbps_uhd": null
+    }
+  }
+}

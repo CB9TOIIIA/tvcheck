@@ -1,0 +1,43 @@
+TVCheck includes independent unmodified command-line tools. MediaInfo and FFprobe are invoked as separate processes; they are not linked into TVCheck.
+
+MediaInfo CLI / MediaInfoLib 26.05 x64
+Copyright MediaArea.net SARL and contributors.
+License notices: tools/LICENSE and tools/License.html.
+Official binary used:
+https://mediaarea.net/download/binary/mediainfo/26.05/MediaInfo_CLI_26.05_Windows_x64.zip
+Project and source:
+https://mediaarea.net/MediaInfo
+https://github.com/MediaArea/MediaInfo/tree/v26.05
+https://github.com/MediaArea/MediaInfoLib/tree/v26.05
+LIBCURL.DLL is part of the official MediaInfo distribution; see its license notices.
+
+FFprobe 8.1.1-full_build-www.gyan.dev x64
+Copyright 2007-2026 the FFmpeg developers and included library authors.
+This Gyan build enables GPL and version3 components. See tools/FFmpeg-LICENSE.txt
+and tools/FFmpeg-README.txt. The executable has not been modified.
+Build provider, build configuration and source links:
+https://www.gyan.dev/ffmpeg/builds/
+FFmpeg source for release 8.1.1:
+https://ffmpeg.org/releases/ffmpeg-8.1.1.tar.xz
+https://ffmpeg.org/legal.html
+When redistributing these third-party binaries, comply with their source distribution
+and notice requirements; preserve these notices and obtain corresponding build/library
+sources from the provider. TVCheck does not relicense third-party components.
+
+Python 3.14 / Tcl/Tk runtime
+Copyright Python Software Foundation and Tcl/Tk contributors.
+Runtime license notices are shipped by PyInstaller under _internal.
+https://docs.python.org/3/license.html
+https://www.tcl.tk/software/tcltk/license.html
+
+PyInstaller 6.22.2 bootloader
+GPL with the PyInstaller distribution exception; generated applications may be distributed.
+https://pyinstaller.org/en/stable/license.html
+
+Theme artwork and palettes come from the user-supplied TVCheck_UIKit_6_Skins kit.
+Runtime banners are cleaned from the kit's hero_reference.png files and enhanced offline
+with Real-ESRGAN's realesrgan-x4plus-anime model (4x); high-resolution PNG masters are retained.
+This is neural reconstruction of the supplied low-resolution references, not original HD art.
+Real-ESRGAN: https://github.com/xinntao/Real-ESRGAN (BSD-3-Clause).
+The enhancement executable and model are not bundled or required at runtime.
+Controls and TV logos are rendered from the kit palette. The supplied kit is unchanged.

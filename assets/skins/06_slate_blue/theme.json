@@ -1,0 +1,49 @@
+{
+  "id": "06_slate_blue",
+  "name": "Slate Blue",
+  "dark": false,
+  "colors": {
+    "accent": "#206CB3",
+    "accent2": "#66A7DE",
+    "bg": "#F4F8FC",
+    "surface": "#FFFFFF",
+    "surface2": "#EDF4FA",
+    "text": "#153D66",
+    "muted": "#6B8197",
+    "border": "#CBD9E7",
+    "good": "#21A66B",
+    "warn": "#F0A21B",
+    "bad": "#E54652",
+    "selection": "#DFECF7"
+  },
+  "typography": {
+    "family": [
+      "Segoe UI Variable",
+      "Segoe UI",
+      "Arial"
+    ],
+    "title": 26,
+    "section": 16,
+    "body": 13,
+    "table": 12,
+    "metric": 20
+  },
+  "radii": {
+    "control": 8,
+    "card": 14,
+    "primary": 12
+  },
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "xl": 24
+  },
+  "sizes": {
+    "controlHeight": 34,
+    "primaryHeight": 44,
+    "tableRow": 34,
+    "tableHeader": 36
+  }
+}

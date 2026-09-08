@@ -1,0 +1,49 @@
+{
+  "id": "05_sakura_red",
+  "name": "Sakura Red",
+  "dark": false,
+  "colors": {
+    "accent": "#F21D52",
+    "accent2": "#FF748C",
+    "bg": "#FFF6F8",
+    "surface": "#FFFFFF",
+    "surface2": "#FFF0F4",
+    "text": "#8E1732",
+    "muted": "#A77481",
+    "border": "#F2CCD5",
+    "good": "#22A46A",
+    "warn": "#EFA11A",
+    "bad": "#E94755",
+    "selection": "#FFE0E8"
+  },
+  "typography": {
+    "family": [
+      "Segoe UI Variable",
+      "Segoe UI",
+      "Arial"
+    ],
+    "title": 26,
+    "section": 16,
+    "body": 13,
+    "table": 12,
+    "metric": 20
+  },
+  "radii": {
+    "control": 8,
+    "card": 14,
+    "primary": 12
+  },
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "xl": 24
+  },
+  "sizes": {
+    "controlHeight": 34,
+    "primaryHeight": 44,
+    "tableRow": 34,
+    "tableHeader": 36
+  }
+}

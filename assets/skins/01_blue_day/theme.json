@@ -1,0 +1,49 @@
+{
+  "id": "01_blue_day",
+  "name": "Blue Day",
+  "dark": false,
+  "colors": {
+    "accent": "#1987FF",
+    "accent2": "#55B4FF",
+    "bg": "#F4F9FF",
+    "surface": "#FFFFFF",
+    "surface2": "#EEF6FF",
+    "text": "#103B72",
+    "muted": "#6B86A8",
+    "border": "#C9DDF5",
+    "good": "#21A66B",
+    "warn": "#F4A11B",
+    "bad": "#F04452",
+    "selection": "#DCEEFF"
+  },
+  "typography": {
+    "family": [
+      "Segoe UI Variable",
+      "Segoe UI",
+      "Arial"
+    ],
+    "title": 26,
+    "section": 16,
+    "body": 13,
+    "table": 12,
+    "metric": 20
+  },
+  "radii": {
+    "control": 8,
+    "card": 14,
+    "primary": 12
+  },
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "xl": 24
+  },
+  "sizes": {
+    "controlHeight": 34,
+    "primaryHeight": 44,
+    "tableRow": 34,
+    "tableHeader": 36
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "03_green_cozy",
+  "name": "Green Cozy",
+  "dark": false,
+  "colors": {
+    "accent": "#1FA56A",
+    "accent2": "#66CB94",
+    "bg": "#F4FBF7",
+    "surface": "#FFFFFF",
+    "surface2": "#ECF8F1",
+    "text": "#174F3B",
+    "muted": "#6B8C7D",
+    "border": "#C9E5D7",
+    "good": "#20A86A",
+    "warn": "#F0A11A",
+    "bad": "#E44753",
+    "selection": "#DDF5E8"
+  },
+  "typography": {
+    "family": [
+      "Segoe UI Variable",
+      "Segoe UI",
+      "Arial"
+    ],
+    "title": 26,
+    "section": 16,
+    "body": 13,
+    "table": 12,
+    "metric": 20
+  },
+  "radii": {
+    "control": 8,
+    "card": 14,
+    "primary": 12
+  },
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "xl": 24
+  },
+  "sizes": {
+    "controlHeight": 34,
+    "primaryHeight": 44,
+    "tableRow": 34,
+    "tableHeader": 36
+  }
+}

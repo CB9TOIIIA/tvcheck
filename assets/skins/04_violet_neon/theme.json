@@ -1,0 +1,49 @@
+{
+  "id": "04_violet_neon",
+  "name": "Violet Neon",
+  "dark": true,
+  "colors": {
+    "accent": "#7A5CFF",
+    "accent2": "#D65AFF",
+    "bg": "#0C1230",
+    "surface": "#171B49",
+    "surface2": "#20265C",
+    "text": "#F8F7FF",
+    "muted": "#AAA7DA",
+    "border": "#383E7A",
+    "good": "#29D37A",
+    "warn": "#FFB129",
+    "bad": "#FF4F73",
+    "selection": "#2E316D"
+  },
+  "typography": {
+    "family": [
+      "Segoe UI Variable",
+      "Segoe UI",
+      "Arial"
+    ],
+    "title": 26,
+    "section": 16,
+    "body": 13,
+    "table": 12,
+    "metric": 20
+  },
+  "radii": {
+    "control": 8,
+    "card": 14,
+    "primary": 12
+  },
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "xl": 24
+  },
+  "sizes": {
+    "controlHeight": 34,
+    "primaryHeight": 44,
+    "tableRow": 34,
+    "tableHeader": 36
+  }
+}

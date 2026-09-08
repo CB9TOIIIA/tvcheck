@@ -1,0 +1,47 @@
+{
+  "window": {
+    "preferred": [
+      1180,
+      760
+    ],
+    "minimum": [
+      960,
+      680
+    ],
+    "nativeWindowsTitlebar": true
+  },
+  "menu": [
+    "Файл",
+    "Настройки",
+    "Справка"
+  ],
+  "layout": [
+    "hero/input panel",
+    "primary action",
+    "summary strip",
+    "episode/file table",
+    "status bar"
+  ],
+  "controls": {
+    "height": 34,
+    "primaryHeight": 44,
+    "cardRadius": 14,
+    "controlRadius": 8
+  },
+  "table": {
+    "rowHeight": 34,
+    "headerHeight": 36,
+    "columns": [
+      "Результат",
+      "Файл",
+      "Видео",
+      "Звук",
+      "Средний битрейт",
+      "Пиковый битрейт",
+      "Время"
+    ]
+  },
+  "responsive": {
+    "hideDecorativeArtBelowWidth": 1050
+  }
+}

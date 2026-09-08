@@ -1,0 +1,43 @@
+{
+  "kit": "TVCheck UI Kit",
+  "version": "1.0",
+  "defaultSkin": "01_blue_day",
+  "skins": [
+    {
+      "id": "01_blue_day",
+      "name": "Blue Day",
+      "dark": false,
+      "path": "skins/01_blue_day"
+    },
+    {
+      "id": "02_crimson_night",
+      "name": "Crimson Night",
+      "dark": true,
+      "path": "skins/02_crimson_night"
+    },
+    {
+      "id": "03_green_cozy",
+      "name": "Green Cozy",
+      "dark": false,
+      "path": "skins/03_green_cozy"
+    },
+    {
+      "id": "04_violet_neon",
+      "name": "Violet Neon",
+      "dark": true,
+      "path": "skins/04_violet_neon"
+    },
+    {
+      "id": "05_sakura_red",
+      "name": "Sakura Red",
+      "dark": false,
+      "path": "skins/05_sakura_red"
+    },
+    {
+      "id": "06_slate_blue",
+      "name": "Slate Blue",
+      "dark": false,
+      "path": "skins/06_slate_blue"
+    }
+  ]
+}

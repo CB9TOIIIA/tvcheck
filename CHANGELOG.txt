@@ -1,0 +1,27 @@
+TVCheck Unreleased
+- Harmless FFprobe reorder-buffer diagnostics no longer turn a compatible full USB scan into «Проверить»; they remain technical notes.
+- Replaced old themes with the supplied TVCheck_UIKit_6_Skins: Blue Day, Crimson Night, Green Cozy, Violet Neon, Sakura Red and Slate Blue; selection persists through Settings → Appearance.
+- Temporary Windows `[WinError 50]` access failures now retry up to four times with visible progress before producing the final file error.
+- MediaInfo-only compatibility is now the default; full-file bitrate measurement is opt-in via the GUI checkbox or CLI `--full`.
+- Removed the sidebar: large hero artwork and input controls above a rounded result card and seven-column file table. Detail tabs open in a separate window; quick MediaInfo remains the default.
+- Replaced gray arrow scrollbars with thin, rounded, theme-colored native thumbs and hover/pressed states; fitting views hide their tracks. Table supports Shift-wheel horizontal scrolling.
+- Restored broad reference artwork instead of stretched face crops: cleaned mockup controls, applied 4x anime superresolution, retained high-resolution masters and proportionally rendered 640x300 banners.
+- DLNA-пункт перемещён первым в меню «Настройки» и переименован в «Проверка совместимости по DLNA/сети», чтобы не создавать впечатление, будто программа управляет DLNA-сервером; при включении режим USB/DLNA выровнен первым в строке параметров.
+
+TVCheck 2.0
+- Full-file FFprobe packet analysis: per-video and combined A/V averages, fixed one-second peaks, peak timestamps.
+- Separate USB and DLNA verdicts; optional measured transport speed and explicit limits of predictions.
+- Subtitles are informational and never turn the video/audio verdict yellow.
+- Compact Crystal-inspired UI, selectable Crystal / Sakura / Yuki / Akira / Terminal skins and original artwork.
+- Editable, validated TV profiles; LG UK6300PLB is the included documented profile.
+- Explorer context menu with multi-resolution icon, current-user installer/uninstaller.
+- Bundled MediaInfo CLI and FFprobe, startup dependency diagnostics, portable Windows x64 distribution.
+- JSON/TXT report export, recursive scan, cancellation, per-file read errors.
+
+TVCheck 2.0.1
+- USB files with complete measured streams and no hard incompatibility now show a clear OK; harmless missing MediaInfo fields remain in technical details.
+- Status card is wider and uses a smaller non-wrapping status label.
+- Technical notes are preserved in the details panel and exported reports.
+TVCheck 2.0.2
+- The Check button no longer silently stays inactive when dependency probing is pending or fails.
+- Background scan failures are shown as an ERROR result with the concrete cause.

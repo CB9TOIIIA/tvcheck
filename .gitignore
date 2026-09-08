@@ -1,0 +1,32 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.build/
+.buildenv/
+
+# Local user data and temporary smoke artifacts
+.dlna-*
+.scroll-*
+.layout-*
+.skin-*
+*.tmp
+*.log
+
+# Packaged output is published as a GitHub Release, not committed to git
+dist/
+
+# Bundled third-party binaries are distributed in the release archive.
+# Keep their license and README files tracked.
+tools/*.exe
+tools/*.dll
+tools/*.zip
+
+# Optional design reference kit; production assets are already in assets/.
+# It is not required to build or run TVCheck.
+TVCheck_UIKit_6_Skins/
+
+# Legacy design experiments; production assets are in assets/skins/
+TVCheck_UI_Kit_Integration/
+TVCheck_UI_variants/

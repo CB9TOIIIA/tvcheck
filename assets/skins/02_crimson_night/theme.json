@@ -1,0 +1,49 @@
+{
+  "id": "02_crimson_night",
+  "name": "Crimson Night",
+  "dark": true,
+  "colors": {
+    "accent": "#FF315A",
+    "accent2": "#B51038",
+    "bg": "#16070C",
+    "surface": "#241016",
+    "surface2": "#32131C",
+    "text": "#FFF4F6",
+    "muted": "#CAA1AC",
+    "border": "#623040",
+    "good": "#2CCB78",
+    "warn": "#FFB22B",
+    "bad": "#FF315A",
+    "selection": "#4B1725"
+  },
+  "typography": {
+    "family": [
+      "Segoe UI Variable",
+      "Segoe UI",
+      "Arial"
+    ],
+    "title": 26,
+    "section": 16,
+    "body": 13,
+    "table": 12,
+    "metric": 20
+  },
+  "radii": {
+    "control": 8,
+    "card": 14,
+    "primary": 12
+  },
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "xl": 24
+  },
+  "sizes": {
+    "controlHeight": 34,
+    "primaryHeight": 44,
+    "tableRow": 34,
+    "tableHeader": 36
+  }
+}
