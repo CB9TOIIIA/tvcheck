@@ -30,3 +30,6 @@ TVCheck_UIKit_6_Skins/
 # Legacy design experiments; production assets are in assets/skins/
 TVCheck_UI_Kit_Integration/
 TVCheck_UI_variants/
+
+# Local screenshot source folder; curated copies live in screenshots/.
+screeebshots/

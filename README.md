@@ -4,6 +4,24 @@ TVCheck — Windows 10/11 x64 программа для оценки совме�
 
 TVCheck **не конвертирует файлы**, не декодирует каждый кадр и не управляет DLNA-сервером. Оценка сети/DLNA — отдельная проверка по характеристикам файла и заданной скорости доставки, а не гарантия воспроизведения.
 
+
+## Скриншоты
+
+<p align="center">
+  <img src="screenshots/01-sakura-check.png" width="100%" alt="TVCheck — основное окно в теме Sakura Red">
+</p>
+
+<table>
+  <tr>
+    <td width="50%"><img src="screenshots/02-violet-bitrate.png" width="100%" alt="TVCheck — проверка битрейта в теме Violet Neon"></td>
+    <td width="50%"><img src="screenshots/03-blue-batch.png" width="100%" alt="TVCheck — пакетная проверка файлов в теме Blue Day"></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="screenshots/04-crimson-batch.png" width="100%" alt="TVCheck — список результатов в теме Crimson Night"></td>
+    <td width="50%"><img src="screenshots/05-blue-quick.png" width="100%" alt="TVCheck — быстрая проверка в теме Blue Day"></td>
+  </tr>
+</table>
+
 ## Скачать готовую программу
 
 Откройте страницу [Releases](https://github.com/CB9TOIIIA/tvcheck/releases) и скачайте `TVCheck-Windows-x64.zip` из последнего релиза. Репозиторий содержит исходный код; запускать исходники для обычного использования не требуется.
